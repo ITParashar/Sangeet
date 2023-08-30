@@ -1,0 +1,172 @@
+body{
+  margin:0;
+  background-color:blanchedalmond;
+  
+}
+
+nav{
+  display:inline-flex;
+  background-color:black;
+  height:50px;
+  width:100vw;
+  min-width:670px;
+  padding-top:20px;
+}
+nav a{
+  padding-right:50px;
+  color:white;
+  text-decoration:none;
+  transition: transform 0.3s ease;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+#link img{
+  height:40px;
+  width:40px;
+  border-radius:10px;
+  padding-left:20px;
+}
+#search{
+  border-radius:10px;
+  width:140px;
+  height:25px;
+}
+#geet{
+  color:goldenrod;
+  font-family:"Cherry Bomb One", cursive;
+  font-size: 25px;
+}
+nav a:hover{
+  color:goldenrod;
+  transform: scale(1.3);
+}
+
+.container{
+  margin:20px;
+  background-color:black;
+  height:100vh;
+  min-width:633px;
+  border-radius: 10px;
+}
+.container{
+  background-image:url(https://w0.peakpx.com/wallpaper/206/787/HD-wallpaper-music-lover-3d-girl-cg-music-black-beauty-abstruct-blue.jpg);
+  background-size:cover;
+}
+
+
+nav ul li:hover{
+  transform: scale(1.2);
+  color:red;
+}
+.main h1{
+  text-align: center;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+}
+.con{
+  margin:0;
+  
+}
+
+.bottom{
+  position:fixed;
+  bottom: 0;
+  background-color:whitesmoke;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  height:100px;
+  width:100vw;
+  min-width:700px;
+  
+}
+#range10{
+  width:75vw;
+  cursor:pointer;
+}
+.icons{
+  padding:10px;
+}
+.icons i{
+  padding:12px;
+}
+h1{
+  font-size:40px;
+}
+.song1{
+  padding:10px;
+  margin: 10px 50px;
+  color:black;
+  background-color:whitesmoke;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:20%;
+  width:25%;
+  border-radius:8px;
+  
+}
+.song1 img{
+  height:80px;
+  width:80px;
+}
+#s2,#s3,#s4,#s5,#s6,#s1,#s7,#s8{
+   transition: transform 0.3s ease;
+}
+#s1:hover,#s2:hover,#s3:hover,#s4:hover,#s5:hover,#s6:hover,#s7:hover,#s8:hover{
+   transform: scale(1.12);
+}
+.mcon{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+
+.images img{
+  display: inline-flex;
+  width:17%;
+  border-radius: 5px;
+  height:5%;
+  float:center;
+  padding:30px;
+  background-image:linear-gradient(rgb(50,50,50),rgb(150,150,150),rgb(0,0,0));
+  transition: transform 0.3s ease;
+  
+}
+.images{
+  padding:10%;
+}
+.images img:hover{
+  transform: scale(1.8);
+}
+h2{
+  text-align:center;
+  font-size:50px;
+  font-weight:bolder;
+  font-family: "Cherry Bomb One", cursive;
+}
+.playlist{
+  margin-top:300px;
+
+}
+.box{
+  margin-top:400px;
+background-color: white;
+  height:100px;
+}
+.video{display: flex;
+       justify-content:space-evenly;
+       flex-wrap:wrap;
+  
+}
+.video video{
+   width:30%; 
+   height:20%;
+  border-radius: 10px;
+   transition: transform 0.3s ease;
+ 
+}
+.video video:hover{
+  transform: scale(1.3);
+}
